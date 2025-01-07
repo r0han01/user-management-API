@@ -102,8 +102,7 @@ node app.js
 6. Delete a User
 `DELETE /users/r0han.k`
 ###
-[screen-capture3-ezgif.com-video-cutter.webm](https://github.com/user-attachments/assets/61649427-ce7f-4cbf-9e74-e193c15d92fa)
-
+![screen-capture3-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/55230348-1364-40cb-b7a5-49d16ab5c48f)
 ###
 
 ### Example Screenshots
