@@ -1,6 +1,7 @@
 # Node.js Express MongoDB User Management API with Password Hashing
 - A RESTful API for user management built with Node.js, Express, and MongoDB, featuring password hashing using bcrypt and dynamic web pages powered by EJS. This application enables user creation, retrieval, updates, and deletion.
-
+###
+![ScreenShot Tool -20250107031117](https://github.com/user-attachments/assets/30f912bd-cd2a-49ae-ad59-de0894b8b8f3)
 ### Features
 - Create users with hashed passwords.
 - Retrieve all users or a specific user by username.
@@ -44,14 +45,25 @@ node app.js
   "password": "vk3A^zEI!vu^HdC"
 }
 ```
+###
+![Screenshot from 2025-01-07 03-13-32](https://github.com/user-attachments/assets/bc701d12-2dbf-4f2a-bdea-3eec13d44530)
+
+###
+
 2. Retrieve All Users
 - `GET /users`
-
 - View all users in an EJS-rendered web page.
+###
+[screen-capture.webm](https://github.com/user-attachments/assets/d42773d5-ce93-4a5e-ab77-7cc190b16860)
+
+###
 3. Retrieve a Specific User
 - `GET /users/r0han`
-
 - Displays details for the user `r0han`.
+###
+[screen-capture (2).webm](https://github.com/user-attachments/assets/aa50e45e-ce22-4c91-9543-a3b6dce9c836)
+
+###
 4. Update User
 - `PUT /users/r0han`
 - Request Body (JSON):
@@ -62,6 +74,14 @@ node app.js
   "password": "RaNd0m@Pa$$123"
 }
 ```
+###
+![Screenshot from 2025-01-07 03-30-21](https://github.com/user-attachments/assets/e49b4c56-cf45-45ee-b058-3fe638c88c4c)
+
+###
+![Screenshot from 2025-01-07 03-43-09](https://github.com/user-attachments/assets/1d4e3016-a6c1-4d77-86a5-b83dbe5be4ad)
+
+###
+
 5. Update Only Password
 - `PATCH /users/r0han.k/password`
 - Request Body (JSON):
@@ -71,21 +91,27 @@ node app.js
   "password": "An0th3r@Pa$$!"
 }
 ```
+###
+![Screenshot from 2025-01-07 03-50-50](https://github.com/user-attachments/assets/caa3579d-b2ec-4ffd-9f37-60622f8e1723)
+
+###
+![ScreenShot Tool -20250107040343 (1)](https://github.com/user-attachments/assets/8c147365-b715-47b7-9980-fafb86773787)
+
+###
+
 6. Delete a User
 `DELETE /users/r0han.k`
+###
+[screen-capture3-ezgif.com-video-cutter.webm](https://github.com/user-attachments/assets/61649427-ce7f-4cbf-9e74-e193c15d92fa)
+
+###
 
 ### Example Screenshots
-1. Postman Request: Create User
-Add an example image of the POST request in Postman here.
 
-2. MongoDB Database: User Data
+#### MongoDB Database: User Data
 Add an image of your MongoDB database showing the user records.
 
-3. User List Web Page
-Add a screenshot of the /users web page showing the list of users.
 
-4. User Detail Web Page
-Add a screenshot of the /users/r0han web page showing specific user details.
 
 ##Contributing
 - Feel free to submit issues and pull requests for improvements or feature suggestions.
