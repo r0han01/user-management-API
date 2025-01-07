@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables and config files
+.env
+config.js  # If your config file contains sensitive data (e.g., MongoDB URI with credentials)
+
+# Logs
+*.log
+
+# Dependency directories
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system files
+.DS_Store  # macOS-specific file
+Thumbs.db  # Windows-specific file
+
+# IDE/editor configuration files
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+
+# Test coverage output
+coverage/
